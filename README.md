@@ -28,28 +28,28 @@
 ## 应用截图
 |登陆|注册|
 |:---:|:---:|
-|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/login.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/register.png)|
+|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/login.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/register.png)|
 
 |职位|职位详情|基本资料|
 |:---:|:---:|:---:|
-|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/position.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/detail.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/baseData.png)
+|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/position.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/detail.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/baseData.png)
 
 |评测|职业水平评测|
 |:---:|:---:|
-|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/evaluate.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/level.png)
+|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/evaluate.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/level.png)
 
 |消息|聊天框|通知|
 |:---:|:---:|:---:|
-|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/news.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/chat.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/notice.png)
+|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/news.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/chat.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/notice.png)
 
 |我的|
 |:---:|
-|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/my.png)|
+|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/my.png)|
 
 ## 后台截图
 |数据库：http://47.96.28.17/|接口：http://47.96.28.17/select|
 |:---:|:---:|
-|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/database.png)|![image](https://github.com/AsamuQ/HomeJob/tree/master/ScreenShot/json.png)|
+|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/database.png)|![image](https://github.com/AsamuQ/HomeJob/blob/master/ScreenShot/json.png)|
 
 ## 团队成员
 前端：
