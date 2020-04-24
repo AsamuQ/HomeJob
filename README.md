@@ -57,6 +57,5 @@
 [EMPmm](https://github.com/EMPmm)   
 后台：
 [Jo1ker](https://github.com/Jo1ker)    
-[qq915061785](https://github.com/qq915061785)    
-[未知]
->>>>>>> 8ca6f037b9d47d4e053dd61282e54dea0c88818d
+[qq915061785](https://github.com/qq915061785)   
+[……]
