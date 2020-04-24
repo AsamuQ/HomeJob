@@ -1,0 +1,78 @@
+<!--pages/evaluate/evaluate.wxml-->
+<!-- 顶端栏 -->
+<view class="topbar">
+	<view class="top-left">
+		<image class="imgLocation" src="{{imageLocationPath}}"></image>
+		<view>北京</view>
+	</view>
+	<view class="top-center">家里蹲job</view>
+	<view class="top-right">
+		<image class="imgSearch" src="{{imageSearchPath}}"></image>
+	</view>
+</view>
+<!-- end顶端栏 -->
+
+<!-- 上方图片 -->
+<view class="top-picture-view">
+	<image class="top-picture" src="{{imageEvaluatePath}}"></image>
+</view>
+<!-- end上方图片 -->
+
+<view class="hot_item">
+	<view>热门测评</view>
+	<view>更多></view>
+</view>
+
+<view class="head-nav">
+	<view class="head-nav-item" wx:for="{{navArr}}" wx:key="hot">
+		<view class="bgcolor bg{{item.id}}" bindtap="gotoLevel">
+			<image class="hot-picture" src="{{item.imgPath}}"></image>
+		</view>
+		<view class="hot-title" class="head-nav-title">{{item.title}}</view>
+	</view>
+</view>
+
+<view class="hot_item">
+	<view>推荐企业</view>
+	<view>更多></view>
+</view>
+
+<!-- 职位块 -->
+<view class="job-list" wx:for="{{jobArr}}" wx:key="job_evaluate" bindtap="gotoJobDetails" data-id="{{item.id}}">
+
+	<view class="line1">
+		<view class="line1-left">{{item.position}}</view>
+		<view class="line1-right">{{item.salary}}-{{item.max_salary}} K </view>
+	</view>
+	<view class="line2">
+		<view class="text">{{item.province}}</view>
+				<view class="text">| {{item.city}}</view>
+				<view class="text"> | {{item.experience}}年</view>
+				<view class="text"> | {{item.education}}</view>
+	</view>
+	<view class="line3">
+		<view class="left">
+			<view class="img">
+				<image class="imgCompany" src="{{imageCompanyBluePath}}"></image>
+			</view>
+			<view class="text">
+				<view class="text-top">{{item.name}}</view>
+						<view class="text-bottom">
+							<text space="emsp">{{item.company_type}} </text>
+							<text space="emsp">{{item.people}}人 </text>
+							<text space="emsp">发布日期:{{item.time}}</text>
+				</view>
+			</view>
+		</view>
+		<view class="right" wx:if="{{item.status}}">
+			<view class="text">已投递</view>
+		</view>
+		<view class="right" wx:else>
+			<view class="text">投递</view>
+		</view>
+		<view class="right"></view>
+	</view>
+
+	<!-- 列表分隔线 -->
+	<view class="borderBottom"></view>
+</view>

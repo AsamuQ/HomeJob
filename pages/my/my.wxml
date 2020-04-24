@@ -1,0 +1,87 @@
+<view class="top">
+  <view class="top1">
+
+    <view class="top1-left">
+      <image class="top1-left-img" src="../img/my/my1.png" bindtap="gotoLogin"></image>
+    </view>
+
+    <view class="top1-center">
+      <view class="top1-center-text">
+        <view class="top1-center-t1">小麦</view>
+        <view class="top1-center-t2">VIP3</view>
+      </view>
+      <view class="top1-center-t3">快乐生活每一天</view>
+    </view>
+
+    <view top1-right>
+        <image class="top1-right-img" src="../img/my/set1.png"></image>
+    </view>
+
+   </view>
+
+   <view class="top2">
+      <view class="top2-num1">30</view>
+      <view class="top2-num2">3</view>
+      <view class="top2-num3">10</view>
+      <view class="top2-num4">5</view>
+   </view>
+
+    <view class="top3">
+      <view class="top3-text1">已投递</view>
+      <view class="top3-text2">有意向</view>
+      <view class="top3-text3">收藏职位</view>
+      <view class="top3-text4">关注公司</view>
+   </view>
+</view>
+
+<view class="center">
+   <view class="center-rows1">
+       <view class="center-img-width">
+           <image src="../img/my/my2.png" class="center-img center-img11"></image>
+       </view>
+       <view class="center-t1">测评投递</view>
+       <view class="center-t2">参与测评有机会得99元红包</view>
+       <image src="../img/my/my8.png" class="center-img2"></image>
+   </view>
+   <view class="center-rows2">
+      <view class="center-img-width">
+           <image src="../img/my/my3.png" class="center-img center-img22"></image>
+      </view>
+       <view class="center-t1">个人简历</view>
+       <view class="center-t2"></view>
+      <image src="../img/my/my8.png" class="center-img2"></image>
+   </view>
+   <view class="center-rows3">
+      <view class="center-img-width">
+          <image src="../img/my/my4.png" class="center-img center-img33"></image>
+    </view>
+       <view class="center-t1">招聘设置</view>
+       <view class="center-t2"></view>
+      <image src="../img/my/my8.png" class="center-img2"></image>
+   </view>
+   <view class="center-rows4">
+      <view class="center-img-width">
+          <image src="../img/my/my5.png" class="center-img center-img44"></image>
+    </view>
+       <view class="center-t1">服务授权</view>
+       <view class="center-t2"></view>
+      <image src="../img/my/my8.png" class="center-img2"></image>
+   </view>
+   <view class="center-rows5">
+      <view class="center-img-width">
+           <image src="../img/my/my6.png" class="center-img center-img55"></image>
+      </view>
+       <view class="center-t1">会员中心</view>
+       <view class="center-t2"></view>
+        <image src="../img/my/my8.png" class="center-img2"></image>
+   </view>
+   <view class="center-rows6">
+      <view class="center-img-width">
+          <image src="../img/my/my7.png" class="center-img center-img66"></image>
+    </view>
+       <view class="center-t1">关于我们</view>
+       <view class="center-t2">V1.0</view>
+      <image src="../img/my/my8.png" class="center-img2"></image>
+   </view>
+</view>
+

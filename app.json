@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/login/login",
+      "pages/register/register",
+    "pages/index/index",
+      "pages/jobDetails/jobDetails",
+      "pages/baseData/baseData",
+    "pages/evaluate/evaluate",
+      "pages/level/level",
+    "pages/news/news",
+      "pages/notice/notice",
+      "pages/content/content",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#646464",
+    "selectedColor": "blue",
+    "list": [
+      {
+        "iconPath": "pages/img/index/index_x.png",
+        "selectedIconPath": "pages/img/index/index.png",
+        "pagePath": "pages/index/index",
+        "text": "职位"
+      },
+      {
+        "iconPath": "pages/img/index/evaluate_x.png",
+        "selectedIconPath": "pages/img/index/evaluate.png",
+        "pagePath": "pages/evaluate/evaluate",
+        "text": "评测"
+      },
+      {
+        "iconPath": "pages/img/index/news_x.png",
+        "selectedIconPath": "pages/img/index/news.png",
+        "pagePath": "pages/news/news",
+        "text": "消息"
+      },
+      {
+        "iconPath": "pages/img/index/my_x.png",
+        "selectedIconPath": "pages/img/index/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}
+

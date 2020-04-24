@@ -1,0 +1,59 @@
+<!--pages/jobDetails/jobDetails.wxml-->
+<!-- 职位块 -->
+<view class="job-list" wx:for="{{jobArr}}" wx:if="{{item.id==id}}" wx:key="job_index">
+	<view class="line1">
+		<view class="line1-left">{{item.position}}</view>
+		<view class="line1-right">{{item.salary}}-{{item.max_salary}} K </view>
+	</view>
+	<view class="line2">
+		<view class="text">{{item.province}}</view>
+		<view class="text">| {{item.city}}</view>
+		<view class="text"> | {{item.experience}}</view>
+		<view class="text"> | {{item.education}}</view>
+	</view>
+	<view class="line3">
+		<view class="left">
+			<view class="img">
+				<image class="imgCompany" src="{{imageCompanyBluePath}}"></image>
+			</view>
+			<view class="text">
+				<view class="text-top">{{item.name}}</view>
+				<view class="text-bottom">
+					<text space="emsp">{{item.company_type}}  </text>
+					<text space="emsp">{{item.people}}人 </text>
+					<text space="emsp">发布日期:{{item.time}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- 列表分隔线 -->
+	<view class="borderBottom"></view>
+</view>
+
+<!-- 下方标签页 -->
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">职位描述</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">公司信息</view>
+
+</view>
+  <!-- 标签列表 -->
+<view wx:for="{{jobArr}}" wx:if="{{item.id==id}}" wx:key="job_desc">
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+    <swiper-item>
+      <!-- 职位块 -->
+        <view class="job_responsbility">
+          <view class="title">岗位职责</view>
+          <view class="desc">{{item.jobDescription}}</view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view class="job_qualification">
+          <view class="title">公司简介</view>
+          <view class="desc">{{item.companyInformation}}</view>
+        </view>
+    </swiper-item>
+</swiper>
+</view>
+<!-- end下方标签页 -->
+<view class="bottom-button" bindtap="completeConfirm"><view class="text">立即投递</view></view>

@@ -1,0 +1,25 @@
+<!--pages/register/register.wxml-->
+<!-- 上方图标和文字 -->
+<view class="top">
+  <image class="top-picture" src="{{imageCompanyBluePath}}"></image>
+  <text>您好!</text>
+  <text>欢迎来到千库招聘</text>
+</view>
+<!-- end上方图标和文字 -->
+
+<!-- 账号密码输入框 -->
+<form bindsubmit="formSubmit">
+<view class='list'>
+  <view class='Input'>
+    <input name="account" type='text' placeholder-style='font-size:28rpx;' placeholder='请输入账号'></input>
+  </view>
+ 
+  <view class='Input'>
+    <input name="password" type='password' placeholder-style='font-size:28rpx;' placeholder='请输入密码'></input>
+  </view>
+
+</view>
+ 
+<button form-type='submit'>注册</button>
+</form>
+<!-- end账号密码输入框 -->

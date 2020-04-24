@@ -1,0 +1,78 @@
+/* pages/content/content.wxss */
+.top-menu {
+  display: flex;
+  position: fixed;
+  height: 80rpx;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 2rpx solid #ddd;
+  border-bottom: 2rpx solid #ddd;
+  font-size: 11pt;
+  color: #bdbdbd;
+  margin-top: 10px;
+}
+
+.line {
+  width: 2rpx;
+  height: 100%;
+  background-color: #ddd;
+}
+.one{
+  width: 204px;
+  height: 82px;
+  }
+  .body{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: #ddd;
+  }
+  .three{
+    width: 300px;
+    height: 98px;
+    margin-left: 10px;
+  }
+  .body1{
+    margin-top: 73px;
+    background-color:rgb(245,245,245);
+    height: auto;
+  }
+  .four{
+    width: 332px;
+    height:97px;
+    margin-left: 27px;
+    margin-top: 17px;
+  }
+  .five{
+    width: 336px;
+    height:79px;
+    margin-left: 24px;
+    margin-top: 17px; 
+  }
+  .search{
+  width: 280px;
+  height:36px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: rgb(245,245,245);
+  text-align: center;
+}
+.search-image{
+  width: 40px;
+  height: 40px;
+  margin-right: -190px;
+}
+.search-imag{
+  width: 40px;
+  height: 40px;
+  margin-left: 195px;
+}
+.body2{
+  display: flex;
+  justify-content: cow;
+}

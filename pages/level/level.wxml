@@ -1,0 +1,28 @@
+<!--pages/level/level.wxml-->
+
+<view class="top_item" fontSize16 >你的职业水平</view>
+<view class="top">
+    <image src="../img/evaluate/10.png"></image>
+</view>
+
+<view class="hot_item"  >
+    <image src="../img/evaluate/6.png"></image>
+    <view>你的职业水平</view>
+</view>
+
+<view class="ident" fontSize16 >
+    职业水平是一个人一生所有与职业相连的行为与活动以及相关的态度、价值观、愿望等连续性经历的过程，也是一个人一生中职业、职位的变迁及职业目标的实现过程。简单地说，一个人职业发展的状态、过程及结果构成了个人的职业生涯。
+    </view>
+
+<view class="rule" fontSize16 >
+ <image src="../img/evaluate/9.png"></image>
+    <view> 答题规则</view>
+    </view>
+
+  <view class="exam" fontSize16 >
+    本套题目约10-15分钟，请在下方20个词语中选择10个你认为自身具备的，并且按照自身具备成能力进行选择。
+  </view>
+
+  <view class="bottom">
+    <image src="../img/evaluate/11.png"></image>
+</view>

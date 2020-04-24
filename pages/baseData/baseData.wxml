@@ -1,0 +1,58 @@
+<!--pages/baseData/baseData.wxml-->
+<view class='baseInfo'>
+  <image src='../img/index/index_f1.png'></image>
+  <text></text>
+</view>
+ 
+<form bindsubmit="formSubmit">
+<view class='list'>
+ 
+  <view class='Input'>
+    <text>姓名</text>
+    <input name="name" type='text' placeholder-style='font-size:28rpx;' placeholder='请输入你的姓名>'></input>
+  </view>
+ 
+ 
+  <view class='Input'>
+    <text>手机号</text>
+    <input name="phone" type='text' placeholder-style='font-size:28rpx;' placeholder='请输入你的手机号>'></input>
+  </view>
+
+  <view class='Input'>
+    <text>邮箱</text>
+    <input name="email" type='text' placeholder-style='font-size:28rpx;' placeholder='请输入你的邮箱>'></input>
+  </view>
+ 
+ 
+<view class='baseInfo'>
+  <image src='../img/index/index_f1.png'></image>
+  <text></text>
+</view>
+ 
+<view class='Input'>
+    <text>参加工作时间</text>
+    <input name="date" type='text' placeholder-style='font-size:28rpx;' placeholder='例：2014-10'>></input>
+</view>
+<view class='Input'>
+    <text>出生日期</text>
+    <input name="bornDate" type='text' placeholder-style='font-size:28rpx;' placeholder='例：1990-10'>></input>
+</view>
+<view class='Input'>
+    <text>学历</text>
+    <input name="education" type='text' placeholder-style='font-size:28rpx;' placeholder='例：本科'>></input>
+</view>
+<view class='Input'>
+    <text>婚姻</text>
+    <input name="married" type='text' placeholder-style='font-size:28rpx;' placeholder='例：已婚'></input>
+</view>
+ 
+</view>
+ 
+<button form-type='submit'>提交</button>
+</form>
+ 
+<!-- 模态框 -->
+<!-- <modal class="modal" title='确认提交' hidden="{{modalHidden}}" bindcancel='modalCancel'  bindconfirm='modalConfirm'>
+    <view class="textConfirm">请确认信息无误</view>
+</modal> -->
+<!-- /模态框 -->

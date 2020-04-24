@@ -1,0 +1,21 @@
+<!--pages/content/content.wxml-->
+<view class="top-menu">
+	<view bindtap="a">
+		<image class="one" src="../img/news/7.jpg" bindtap="showMenuTap" data-type="1"></image>
+	</view>
+	<view class="line"></view>
+	<view bindtap="b">
+		<image class="one" src="../img/news/8.jpg" bindtap="showMenuTap" data-type="2"></image>
+	</view>
+</view>
+<view class="body1" style="height:524px">
+	<view class="body">下午18:25</view>
+	<image class="three" src="../img/news/9.jpg"></image>
+	<image class="four" src="../img/news/10.jpg"></image>
+	<image class="five" src="../img/news/11.jpg"></image>
+</view>
+<view class="body2">
+	<input class="search" focus="auto"></input>
+	<image class="search-image" src="../img/news/12.jpg"></image>
+	<image class="search-imag" src="../img/news/13.jpg"></image>
+</view>

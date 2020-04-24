@@ -1,0 +1,3 @@
+<!--pages/notice/notice.wxml-->
+<view class="first" bindtap="changeColor" style="color:{{color}}">通知</view>
+<view class="two">暂时没有通知</view>

@@ -1,0 +1,14 @@
+/* pages/notice/notice.wxss */
+.first{
+  font-size: 21px;
+  margin-left: 10px;
+  color: blue;
+}
+.two{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: gainsboro;
+}
+
+

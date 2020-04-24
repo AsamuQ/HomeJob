@@ -1,0 +1,19 @@
+<!--pages/news/news.wxml-->
+<view class="body">
+	<view class="first on" bindtap="changeColor" style="color:{{color}}">消息</view>
+	<view class="two" bindtap="onTapDayWeather">通知</view>
+</view>
+
+<block wx:for="{{list}}" wx:key="aa">
+	<view bindtap="goto" class="list-box">
+		<image class="list-box-image1" src="{{item.Image}}"></image>
+		<view class="body1">
+			<view class="three">{{item.name}}</view>
+			<view class="four">{{item.a}}</view>
+		</view>
+		<view class="right">
+			<view class="five">{{item.b}}</view>
+			<image class="imag" src="{{item.Imag}}"></image>
+		</view>
+	</view>
+</block>
